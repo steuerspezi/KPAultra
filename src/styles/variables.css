@@ -1,0 +1,35 @@
+:root {
+  /* CI Colors based on Sven Schröder Steuerberater */
+  --primary-teal: #1fa3a3; /* Core brand teal */
+  --primary-navy: #1a3a5a; /* Professional navy blue */
+  --accent-teal: #008b8b;
+  --bg-light: #f8fafc;
+  --sidebar-bg: #1a3a5a;
+  --sidebar-text: #ffffff;
+  --sidebar-hover: #2c4e70;
+  --sidebar-active: #1fa3a3;
+  --text-main: #334155;
+  --border-color: #e2e8f0;
+  
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --radius-md: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  line-height: 1.5;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+}

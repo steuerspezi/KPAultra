@@ -1,0 +1,95 @@
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-text);
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.logoContainer {
+    padding: 2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logoCircle {
+    width: 32px;
+    height: 32px;
+    background-color: var(--sidebar-active);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+}
+
+.brandName {
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.brandSub {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+.nav {
+    flex: 1;
+    padding: 1.5rem 0;
+}
+
+.navList {
+    list-style: none;
+}
+
+.navItem {
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navItem:hover {
+    background-color: var(--sidebar-hover);
+    color: white;
+}
+
+.navItem.active {
+    background-color: var(--sidebar-active);
+    color: white;
+    font-weight: 500;
+}
+
+.navIcon {
+    font-size: 1.2rem;
+}
+
+.footer {
+    padding: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.version {
+    font-size: 0.7rem;
+    opacity: 0.5;
+    text-align: center;
+}

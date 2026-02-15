@@ -1,0 +1,130 @@
+.container {
+    flex: 1;
+    padding: 3rem;
+    max-width: 900px;
+}
+
+.header {
+    margin-bottom: 2.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: var(--primary-navy);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+.card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.sectionTitle {
+    font-size: 1.25rem;
+    color: var(--primary-navy);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid var(--primary-teal);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.calcRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    font-size: 1.05rem;
+}
+
+.calcLabel {
+    color: #64748b;
+    font-weight: 500;
+}
+
+.calcValue {
+    color: var(--primary-navy);
+    font-weight: 600;
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 1rem 0;
+}
+
+.resultSubRow {
+    background-color: #f8fafc;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--primary-teal);
+    margin-top: 0.5rem;
+}
+
+.resultSubRow .calcLabel {
+    color: var(--primary-navy);
+    font-weight: 700;
+}
+
+.resultSubRow .calcValue {
+    color: var(--primary-teal);
+    font-weight: 700;
+}
+
+.finalSection {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px dashed var(--border-color);
+}
+
+.totalRow {
+    background: var(--primary-navy);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    color: white;
+}
+
+.totalRow .calcLabel {
+    color: #cbd5e1;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.totalRow .calcValue {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.infoBox {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    padding: 1.25rem;
+    background-color: rgba(31, 163, 163, 0.05);
+    border-left: 4px solid var(--primary-teal);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.infoIcon {
+    font-size: 1.25rem;
+}
+
+.infoText {
+    font-size: 0.9rem;
+    color: #475569;
+    line-height: 1.6;
+}

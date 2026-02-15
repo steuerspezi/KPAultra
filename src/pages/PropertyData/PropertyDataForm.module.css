@@ -1,0 +1,124 @@
+.container {
+    flex: 1;
+    padding: 3rem;
+    max-width: 900px;
+}
+
+.header {
+    margin-bottom: 2.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: var(--primary-navy);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+.card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+}
+
+.formSection {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.formSection:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.sectionTitle {
+    font-size: 1.25rem;
+    color: var(--primary-navy);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sectionTitle::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 1.25rem;
+    background-color: var(--primary-teal);
+    border-radius: 2px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--primary-navy);
+    font-size: 0.95rem;
+}
+
+.textarea,
+.select,
+.input {
+    width: 100%;
+    padding: 0.625rem 0.875rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+    font-family: inherit;
+    transition: all 0.2s;
+    background-color: #fff;
+}
+
+.textarea:focus,
+.select:focus,
+.input:focus {
+    outline: none;
+    border-color: var(--primary-teal);
+    box-shadow: 0 0 0 3px rgba(31, 163, 163, 0.1);
+}
+
+.inputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputWrapper .input {
+    padding-right: 3.5rem;
+}
+
+.unit {
+    position: absolute;
+    right: 1rem;
+    color: #94a3b8;
+    font-size: 0.85rem;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.helpText {
+    display: block;
+    margin-top: 0.4rem;
+    color: #94a3b8;
+    font-size: 0.8rem;
+}
